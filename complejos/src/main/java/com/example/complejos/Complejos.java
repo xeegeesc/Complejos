@@ -1,4 +1,4 @@
-/** Clase que representa un número complejo. */
+/* Clase que representa un número complejo. */
 
 package com.example.complejos;
 
@@ -14,13 +14,15 @@ class Complejo {
     }
 
     //declaración de métodos
-    /** Transcribe el complejo a String.
+    /* Transcribe el complejo a String.
      * @returnun string con la parte entera y la imaginaria
      */
 
     public String toString() {
         return real + "+"+ imaginario + "i";
     }
+
+    //hfjh
 
     /** Suma al complejo de este objeto otro complejo.
      * @param v  el complejo que sumamos
